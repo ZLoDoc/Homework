@@ -17,8 +17,8 @@ else
 }
 }
 
-// Console.Write($"Введите трехзначное число : ");
-// int Numbers = Convert.ToInt32(Console.ReadLine());
+Console.Write($"Введите трехзначное число : ");
+int Numbers = Convert.ToInt32(Console.ReadLine());
 
-int Numbers =new Random().Next(1, 1500);
+// int Numbers =new Random().Next(1, 1500);
 NUM(Numbers);
