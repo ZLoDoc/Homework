@@ -28,5 +28,4 @@ if (Numbers >9999 && Numbers <99999)
 
 Console.Write($"Введите целое число : ");
 int Numbers = Convert.ToInt32(Console.ReadLine());
-
 NUM(Numbers);
